@@ -1,1 +1,1 @@
-AI image generator using Node.js and OpenAI
+AI image generator using HTML, CSS, Javascript, Node.js and OpenAI

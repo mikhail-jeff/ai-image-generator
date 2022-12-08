@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;700&display=swap');
+
+*,
+*:before,
+*:after {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+:root {
+	--primary-color: #1675e8;
+}
+
+body {
+	font-family: 'Raleway', sans-serif;
+	font-size: 16px;
+	line-height: 1.5;
+	color: #333;
+	background: #f4f4f4;
+}
+
+/* Navbar */
+.navbar {
+	background: #333;
+	color: #fff;
+	padding: 1rem 2rem;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.navbar ul {
+	list-style: none;
+	display: flex;
+}
+
+.navbar ul li {
+	margin-left: 1rem;
+}
+
+.navbar a {
+	color: #fff;
+	text-decoration: none;
+	font-size: 1.2rem;
+}
+
+.navbar a:hover {
+	color: var(--primary-color);
+}
+
+/* Showcase */
+.showcase {
+	font-family: monospace;
+	height: 250px;
+	width: 100%;
+	background: var(--primary-color);
+}
+
+.showcase h1 {
+	font-size: 2rem;
+	color: #333;
+	text-align: center;
+	padding: 0.8rem 0;
+}
+
+.showcase form {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	height: 100%;
+	width: 100%;
+}
+
+.showcase form input,
+form select {
+	font-size: 16px;
+	width: 500px;
+	max-width: 500px;
+	padding: 0.5rem;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	margin-bottom: 1rem;
+}
+
+form button {
+	font-size: 15px;
+	padding: 0.8rem 1.5rem;
+	border: none;
+	border-radius: 5px;
+	background: #333;
+	color: #fff;
+	cursor: pointer;
+	margin-bottom: 15px;
+}
+
+form button:hover {
+	transform: scale(0.9);
+}
+
+/* Image */
+
+.image {
+	width: 100%;
+	margin-top: 2rem;
+}
+
+img {
+	display: block;
+	margin: auto;
+}
+
+.msg {
+	font-size: 1.6rem;
+	text-align: center;
+	margin-top: 1rem;
+}
+
+span {
+	color: var(--primary-color);
+	font-family: monospace;
+	font-size: 26px;
+}
